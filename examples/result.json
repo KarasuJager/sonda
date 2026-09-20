@@ -1,0 +1,28 @@
+{
+  "target": "http://127.0.0.1:9090/?q=admin",
+  "mutated_url": "http://127.0.0.1:9090/?q=SONDA_TEST",
+  "mutation": {
+    "parameter": "q",
+    "value": "SONDA_TEST"
+  },
+  "baseline": {
+    "status": 200,
+    "length": 30,
+    "sha256": "75393f3a22e676ddf4841bc6e1ee8cbde27b051e8234b33877eca202477eb85f",
+    "duration_ms": 2
+  },
+  "mutated": {
+    "status": 200,
+    "length": 11,
+    "sha256": "1a85f3e5527f0a21be1b762c0c198ce740fc3df29e04c95b3c48c009ba8eb527",
+    "duration_ms": 1
+  },
+  "diff": {
+    "status_changed": false,
+    "length_changed": true,
+    "length_delta": -19,
+    "hash_changed": true,
+    "body_similarity": 0,
+    "timing_delta_ms": -1
+  }
+}

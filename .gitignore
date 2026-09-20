@@ -1,0 +1,34 @@
+﻿# Build artifacts
+/bin/
+/dist/
+*.exe
+*.test
+
+# Coverage and profiling
+coverage.out
+*.prof
+/coverage/
+
+# Local reports
+/result.json
+/reports/
+
+# Local tool caches and validation artifacts
+/.gocache/
+/.tmp-sonda-*
+
+# Editors
+.vscode/
+.idea/
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.log
+
+# Local environment files
+.env
+.env.*
