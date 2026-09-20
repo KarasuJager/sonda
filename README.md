@@ -2,7 +2,7 @@
 
 [![CI](https://github.com/KarasuJager/sonda/actions/workflows/ci.yml/badge.svg)](https://github.com/KarasuJager/sonda/actions/workflows/ci.yml)
 
-SONDA is a small command-line tool for reproducible HTTP differential testing.
+SONDA is a focused command-line tool for reproducible HTTP differential testing.
 It sends a baseline `GET` request, changes one existing query parameter, sends
 the mutated request, and reports the observable differences.
 
